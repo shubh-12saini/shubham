@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a001f);
+  color: #fff;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 60px;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  color: #bb00ff;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: .3s;
+}
+
+.nav-links a:hover {
+  color: #bb00ff;
+  text-shadow: 0 0 15px #bb00ff;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.hero span {
+  color: #bb00ff;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  background: #bb00ff;
+  color: white;
+  text-decoration: none;
+  transition: .4s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 20px #bb00ff;
+}
+
+.section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 40px 0;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill-card {
+  padding: 20px 40px;
+  background: #1a001f;
+  border-radius: 10px;
+  transition: .4s;
+}
+
+.skill-card:hover {
+  background: #bb00ff;
+  box-shadow: 0 0 20px #bb00ff;
+}
+
+.calculator {
+  width: 260px;
+  margin: 20px auto;
+}
+
+#calc-display {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.calc-buttons button {
+  width: 23%;
+  margin: 1%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1a001f;
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.calc-buttons button:hover {
+  background: #bb00ff;
+  box-shadow: 0 0 15px #bb00ff;
+}
+
+.equal {
+  background: #bb00ff !important;
+}
+
+.clock-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.clock {
+  padding: 15px 25px;
+  background: #1a001f;
+  border-radius: 10px;
+  transition: .3s;
+}
+
+.clock:hover {
+  background: #bb00ff;
+  box-shadow: 0 0 20px #bb00ff;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f0f0f;
+}
